@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS RESET */
+    body {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/ok.jpg')no-repeat center center/cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        color: rgb(15, 6, 6);
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 20px
+    }
+
+    .left img {
+        width: 103px;
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        /* border: 2px solid green; */
+        display: block;
+        width: 49%;
+        margin: 20px auto;
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        position: absolute;
+        right: 34px;
+        top: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+        color: red;
+    }
+
+    .navbar li {
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 34px 23px;
+        text-transform: capitalize;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: red;
+        /* background-color: yellow; */
+        /* border-radius:34px; */
+        text-decoration: underline;
+
+    }
+
+    .btn {
+        margin: 2px;
+        padding: 10px 17px;
+        background-color: gray;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        
+
+    }
+
+    .btn:hover {
+        color: yellow;
+        font-weight: bold;
+    }
+
+    .container {
+        /* border: 2px solid red; */
+        margin: 45px auto;
+        padding: 23px 72px;
+        width: 63%;
+        border-radius: 90px;
+    }
+
+    .form-group input {
+        width: 404px;
+        text-align: center;
+        display: block;
+        padding: 5px 9px;
+        border: 3px solid black;
+        margin: 4px auto;
+        font-size: 23px;
+        cursor: pointer;
+
+    }
+
+    container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        margin: auto;
+        width: 425px;
+    }
+    h1{
+        color:rgb(10, 10, 8);
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box  for logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div>arjun fitness</div>
+        </div>
+
+
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">FitnessCalculator</a></li>
+                <li><a href="#">ContactUs</a></li>
+            </ul>
+        </div>
+
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+        <div class="container">
+            <h1>Join the best gym of kanpur now</h1>
+            <form action="notificaton.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+
+                    
+
+                    <input type="text" name="" placeholder="Enter your gender">
+                    <!-- <input type="radio" name="gender" placeholder="Enter your gender">female -->
+                    <input type="text" name="" placeholder="Enter your email">
+                    <input type="text" name="" placeholder="Enter your number">
+                    <input type="text" name="" placeholder="Enter your address">
+                
+                </div> 
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+
+    </header>
+</body>
+
+</html>
